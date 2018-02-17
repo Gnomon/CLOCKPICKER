@@ -1,0 +1,9 @@
+JavaScript: console.log('in init')
+Set reference MyRef to $cobj
+
+JavaScript: $(MyRef.elem).clockpicker({
+JavaScript: placement: 'bottom',
+JavaScript: align: 'left',
+JavaScript: autoclose: true,
+JavaScript: afterDone: function() {__form.clientEvCode='evAfterDone';MyRef.callMethodEx('$event')}
+JavaScript: })

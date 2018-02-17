@@ -1,0 +1,2 @@
+On evAfterDone     ;; clockpicker event
+	JavaScript: console.log('afterDone')

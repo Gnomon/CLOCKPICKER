@@ -1,0 +1,11 @@
+;  JavaScript: $cform=__form
+;  Quit method
+Begin text block
+Text: {css/bootstrap.css,}
+;  Text: {js/bootstrap.min.js,}
+Text: {css/bootstrap-clockpicker/bootstrap-clockpicker.css,}
+;  Text: {js/libs/bootstrap-clockpicker/bootstrap-clockpicker.min.js,}
+;  Text: {js/libs/DataTables/jquery.dataTables.min.js}
+End text block
+Get text block MyDependencies
+JavaScript: provide_headerfiles(MyDependencies)
