@@ -1,5 +1,5 @@
 # CLOCKPICKER
-a simple javascript bootstrap clockpicker brought to omnis js
+a simple javascript bootstrap clockpicker brought to omnis jsclient
 using http://weareoutman.github.io/clockpicker/
 
 1. 
